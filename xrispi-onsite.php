@@ -3,7 +3,7 @@
  * Plugin Name: Xrispi On-Site
  * Plugin URI: https://xrispi.com/
  * Description: Installs xrispi on-site in your word press
- * Version: 1.1
+ * Version: 1.2
  * Author: Xrispi Labs LTD.
  * Author URI: https://xrispi.com
  * License: GPL2
