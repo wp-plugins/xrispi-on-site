@@ -10,7 +10,7 @@
  */
 
 function xrispi_onsite_wp_head_action() {
-	$output = '<script src="//s.xrispi.com/static/xriscript/xriscript.nocache.js" data-xrispi="{platform:\'wp\', v:\'1.1\'}"></script>';
+	$output = '<script src="//s.xrispi.com/static/xriscript/xriscript.nocache.js" data-xrispi="{&quot;platform&quot;:&quot;wp&quot;,&quot;v&quot;:&quot;1.1&quot;}"></script>';
 	echo $output;
 }
 

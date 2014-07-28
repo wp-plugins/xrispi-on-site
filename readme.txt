@@ -4,7 +4,7 @@ Donate link: https://xrispi.com/
 Tags: widget, sidebar, post, sharing, concise, social, notifications, marketing, content, xrispi, Facebook, emails
 Requires at least: 3.0.1
 Tested up to: 3.4 
-Stable tag: 1.1
+Stable tag: 1.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -44,6 +44,9 @@ Please read [How It Works](https://www.xrispi.com/##how-it-works) section
 
 == Changelog ==
 
+= 1.2 =
+* Fixing meta information to valid json
+
 = 1.1 =
 * Adds meta infomation
 
@@ -51,6 +54,9 @@ Please read [How It Works](https://www.xrispi.com/##how-it-works) section
 * Initial version
 
 == Upgrade Notice ==
+
+= 1.2 =
+* Fixing the meta information to be valid json
 
 = 1.0 =
 * Initial version
