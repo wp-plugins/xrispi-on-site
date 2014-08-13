@@ -17,7 +17,7 @@ xrispi is made for sharing content that matters! Give readers the ability to twe
 For boosting blog traffic! This is done via xrispi "personalized shares" which are posted on Facebook, sent via emails and push notifications by the blog readers. It is also used by blog editors who are interested to focus their audience on the key points within their long text.  
 
 = How it works? = 
-For more information check out [xrispi site](https://www.xrispi.com) or contact us at [publishers@xrispi.com](publishers@xrispi.com) 
+For more information check out [xrispi site](https://www.xrispi.com) or contact us at [publishers@xrispi.com](publishers@xrispi.com)  
 
 == Installation ==
 
