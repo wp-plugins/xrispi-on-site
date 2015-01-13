@@ -8,24 +8,46 @@ Stable tag: 1.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-xrispi is made for sharing content that matters! Give readers the ability to tweak bites of content and best fit it to their friend's interests. 
+Xrispi is a concise content sharing platform, made to promote online articles, boost site traffic and increase reader engagement for online publishers and bloggers.
 
 == Description ==
-[xrispi](https://www.xrispi.com) is a cool widget which enables blog editors and readers to highlight important parts of content and make them instantly sharable via common social networks, emails and push notifications. Readers can choose to mark any other text parts (the "Bite It" action) and adjust article title as shown in their posts. Why? Simply to feed their friends with concise content that matters!
+[Xrispi](https://www.xrispi.com) is a cool widget that enables online publishers, bloggers and readers alike to highlight important parts of content and share them instantly via social networks, emails and unique push notifications. Readers can choose to highlight any text within an article, as well as adding their own takeaway, eventually feeding their friends with concise content that matters!
 
-= What is it good for? =     
-For boosting blog traffic! This is done via xrispi "personalized shares" which are posted on Facebook, sent via emails and push notifications by the blog readers. It is also used by blog editors who are interested to focus their audience on the key points within their long text.  
 
-= How it works? = 
-For more information check out [xrispi site](https://www.xrispi.com) or contact us at [publishers@xrispi.com](publishers@xrispi.com)  
+= What are the benefits of Xrispi? =
+
+*Xrispi is an instant traffic booster.*
+
+When readers on your website undergo personalized sharing, i.e., post their Xrisps from an article, that article, its author and the publication in which it is featured all become instantly viral through shares on Facebook, email, and mobile push notifications directly in their browsers (both in mobile and desktops). Your content therefore gains wider exposure through the shares of your readers who know how to tailor and market your articles to a different audience you may not have succeeded to reach otherwise.
+
+*Xrispi is a great marketing tool for editors and blog writers.*
+
+In addition to your readers who are looking to share just the content that matters to them and their friends, writers of your publication are always looking for ways to highlight key points that matter to them within their long texts. This way, readers have more than an abstract to decide whether the article in front of them is worth the read or better yet, a share.
+
+*Xrispi increases reader’s engagement time with your publication.*
+
+When readers receive content that is specifically tailored to their interests, they spend more time browsing through the specific article sent to them, as well as additional articles that are featured within your publication. This adds tremendous value to your content when wanting to work with advertisers.
+
+= Alright, so how do I get started? =
+It is super easy and simple! [Click here ](https://wordpress.org/plugins/xrispi-on-site/installation/)
+
+If you have any questions, please feel free to contact us any time at publishers@xrispi.com
 
 == Installation ==
 
-It is super easy and simple to get started! 
+It is super easy to get started, and totally free!
  
-1. You can download and install xrispi using the built in WordPress plugin installer
-2. Activate the plugin through the 'Plugins' menu in WordPress
-3. Fill this [form](https://xrispi.com/##xrispiOnSite) so we will create for your domain a special account for publishing online xrisps (Why? so users who browse your site will see your chosen text portions as highlighted and to make them sharable) 
+Fill in this [form](https://xrispi.com/##xrispiOnSite) and you will receive a link to your email with simple site installation instructions. After completion, a special account for publishing online Xrisps will be automatically created for your dedicated URL. Fulfilling these steps correctly will enable you, the website owner, to promote articles and boost your site traffic.
+
+= How can I promote my articles and boost my website traffic? =
+
+As a website owner, you can choose to promote any article within your publication. Once you select an article, you can then highlight sentences you would like to emphasize within the text. These highlighted pieces of text will immediately become visible and sharable by any user browsing on your site.
+On top of that, your site readers receive push notifications in their browsers as soon as your Xrisps are published (works both on mobile and desktop platforms) featuring a link to this specific article with a focus on your highlighted texts. Try it and see for yourself!
+
+If you have any questions, please feel free to contact us any time at publishers@xrispi.com
+
+Thanks,
+The Xrispi Team
 
 == Frequently Asked Questions ==
 
@@ -39,8 +61,6 @@ Please read [How It Works](https://www.xrispi.com/##how-it-works) section
 2. *Xrisp It* - the sharing action button    
 
 3. *New Xrisp* - a summary based on the highlighted text portions, ready to be posted on Facebook and shared via email 
-
-4. *Xrispi Webapp* - all xrisps are stored in one place in an organized way   
 
 == Changelog ==
 
