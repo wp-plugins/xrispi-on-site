@@ -11,10 +11,11 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Xrispi is a concise content sharing platform, made to promote online articles, boost site traffic and increase reader engagement for online publishers and bloggers.
 
 == Description ==
-[Xrispi](https://www.xrispi.com) is a cool widget that enables online publishers, bloggers and readers alike to highlight important parts of content and share them instantly via social networks, emails and unique push notifications. Readers can choose to highlight any text within an article, as well as adding their own takeaway, eventually feeding their friends with concise content that matters!
+[Xrispi](https://www.xrispi.com) is a cool widget that enables online publishers, bloggers and readers alike to highlight important parts of content and share them instantly via social networks, emails and unique push notifications. After all who has the time to read long articles? Any visitor can choose to highlight text within an article, as well as adding his own takeaway, sharing it and ultimately grabbing the attention of wider audiences, otherwise unreached.
 
 
 = What are the benefits of Xrispi? =
+
 
 *Xrispi is an instant traffic booster.*
 
@@ -61,6 +62,8 @@ Please read [How It Works](https://www.xrispi.com/##how-it-works) section
 2. *Xrisp It* - the sharing action button    
 
 3. *New Xrisp* - a summary based on the highlighted text portions, ready to be posted on Facebook and shared via email 
+
+4. *Xrispi Webapp* - all xrisps are stored in one place in an organized way   
 
 == Changelog ==
 
