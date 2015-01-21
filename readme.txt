@@ -67,6 +67,9 @@ Please read [How It Works](https://www.xrispi.com/##how-it-works) section
 
 == Changelog ==
 
+= 1.5 =
+* Adding support for setting Xrispi language
+
 = 1.4 =
 * Xrispi settings page
 * Settings link in plugins section
