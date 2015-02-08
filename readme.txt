@@ -4,11 +4,11 @@ Donate link: https://xrispi.com/
 Tags: widget, sidebar, post, sharing, concise, social, notifications, marketing, content, xrispi, Facebook, emails
 Requires at least: 3.0.1
 Tested up to: 4.1
-Stable tag: 1.4
+Stable tag: 1.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Xrispi is a concise content sharing platform, made to promote online articles, boost site traffic and increase reader engagement for online publishers and bloggers.
+Xrispi is a concise content sharing platform, made to promote online articles, boost site traffic and increase reader engagement for online publishers
 
 == Description ==
 [Xrispi](https://www.xrispi.com) is a cool widget that enables online publishers, bloggers and readers alike to highlight important parts of content and share them instantly via social networks, emails and unique push notifications. After all who has the time to read long articles? Any visitor can choose to highlight text within an article, as well as adding his own takeaway, sharing it and ultimately grabbing the attention of wider audiences, otherwise unreached.
@@ -52,8 +52,23 @@ The Xrispi Team
 
 == Frequently Asked Questions ==
 
-= How to "Xrisp It"? =
-Please read [How It Works](https://www.xrispi.com/##how-it-works) section 
+= How to publish Xrisps? =
+
+After you embedded the Xrispi code on your site, simply follow these steps:
+
+1. Browse to the article page that you would like to promote, mark some interesting text, click on the sharing button, and if required, login.
+2. Optional takeaway - you may want to add your takeaway message as a teaser for your readers. Note: if you don't add this takeaway we will simply use the original article title as the default text.
+3. Check that you have the special publishing icon (arrow pointing up), and click on "Share Xrisp"
+
+Congratulations! Now visitors in your article page will see the highlighted text and will be able to share it with their friends via email and social networks. In addition, all your site visitors will get a notification in their browsers with a link to read your article.
+
+Note: you can also invite your article editors to publish Xrisps.
+
+For support please feel free to contact us anytime at [publishers@xrispi.com](mailto:publishers@xrispi.com)
+
+Thank you :)
+
+Xrispi Team - sharing what matters!
 
 == Screenshots ==
 
