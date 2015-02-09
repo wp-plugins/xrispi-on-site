@@ -62,7 +62,7 @@ After you embedded the Xrispi code on your site, simply follow these steps:
 
 Congratulations! Now visitors in your article page will see the highlighted text and will be able to share it with their friends via email and social networks. In addition, all your site visitors will get a notification in their browsers with a link to read your article.
 
-Note: you can also invite your article editors to publish Xrisps.
+Note: you can also invite your article editors to publish Xrisps. Click on [publishing folder](https://xrispi.com/publishers/) type emails of your collaborators and send them an invitation.
 
 For support please feel free to contact us anytime at [publishers@xrispi.com](mailto:publishers@xrispi.com)
 
@@ -77,8 +77,6 @@ Xrispi Team - sharing what matters!
 2. *Xrisp It* - the sharing action button    
 
 3. *New Xrisp* - a summary based on the highlighted text portions, ready to be posted on Facebook and shared via email 
-
-4. *Xrispi Webapp* - all xrisps are stored in one place in an organized way   
 
 == Changelog ==
 
