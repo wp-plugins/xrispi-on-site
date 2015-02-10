@@ -106,6 +106,9 @@ Xrispi Team - sharing what matters!
 
 == Upgrade Notice ==
 
+= 1.6 =
+* Serving settings from xrispi CDN
+
 = 1.2 =
 * Fixing the meta information to be valid json
 
