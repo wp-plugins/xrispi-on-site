@@ -3,7 +3,7 @@
  * Plugin Name: Xrispi On-Site
  * Plugin URI: https://xrispi.com/
  * Description: Xrispi is a concise content sharing platform, made to promote online articles, boost site traffic and increase reader engagement for online publishers
- * Version: 1.5
+ * Version: 1.6
  * Author: Xrispi Labs Ltd.
  * Author URI: https://xrispi.com
  * License: GPL2
@@ -11,26 +11,17 @@
 
 function xrispi_onsite_wp_head_action() {
 	$guid = get_option( 'xrispi_onsite_publisher_guid', false );
-	$locale = get_option( 'xrispi_onsite_publisher_locale', false );
 	$output = "<script>\n";
 	
-	$ar = array();
-	
+	$output .= "(function(w,d,t,s){var a=d.createElement(t),m=d.getElementsByTagName(t)[0]; a.async=1; a.src=s;m.parentNode.insertBefore(a,m);";
+	$output .= "a.setAttribute('data-xrispi', '{\"platform\":\"wp\",\"v\":\"1.6\"}');";
 	if($guid) {
-		array_push($ar, "publisher:'".$guid."'");
+		$output .= "})(window,document,'script', '//s.xrispi.com/publishers/".$guid.".nocache.js');";
+	} else {
+		$output .= "})(window,document,'script', '//s.xrispi.com/static/xriscript/xriscript.nocache.js');";
 	}
 	
-	if($locale) {
-		array_push($ar, "locale:'".$locale."'");
-	}
-	
-	if(count($ar) > 0) {
-		$output .= "var XrispiOptions = {".join(",", $ar)."};\n";
-	}
-	
-	$output .= "(function(w,d,t,s){var a=d.createElement(t),m=d.getElementsByTagName(t)[0]; a.async=1; a.src=s;m.parentNode.insertBefore(a,m);"
-	."a.setAttribute('data-xrispi', '{\"platform\":\"wp\",\"v\":\"1.5\"}');"
-	."})(window,document,'script','//s.xrispi.com/static/xriscript/xriscript.nocache.js');\n</script>\n";
+	$output .= "\n</script>\n";
 	echo $output;
 }
 
@@ -51,30 +42,14 @@ function xrispi_onsite_admin_menu() {
 		'xrispi_onsite',
 		'xrispi_onsite_setting_section'
 	);	
-	
-	add_settings_field(
-		'xrispi_onsite_publisher_locale',
-		'Set language',
-		'xrispi_onsite_setting_locale_callback_function',
-		'xrispi_onsite',
-		'xrispi_onsite_setting_section'
-	);	
 }
 
 function xrispi_onsite_admin_init() {
 	register_setting( 'xrispi_onsite', 'xrispi_onsite_publisher_guid', 'sanitize_xrispi_onsite_publisher_guid' );
-	register_setting( 'xrispi_onsite', 'xrispi_onsite_publisher_locale', 'sanitize_xrispi_onsite_publisher_locale' );
 }
 
 function sanitize_xrispi_onsite_publisher_guid($value) {
 	if(!preg_match('/^\s*([a-zA-Z0-9]{36})\s*$/', $value, $matches)) {
-		return '';
-	}
-	return $matches[1];
-}
-
-function sanitize_xrispi_onsite_publisher_locale($value) {
-	if(!preg_match('/^\s*([a-zA-Z_]+)\s*$/', $value, $matches)) {
 		return '';
 	}
 	return $matches[1];
@@ -92,7 +67,7 @@ In case you have not done it yet, first fill in <a href="https://xrispi.com/##xr
 </p><p>
 Note: published Xrisps are saved under unique <a href="https://xrispi.com/publishers/" target="_blank">Publishing Folders</a>. As a website owner, you can choose to “Add Editors” to your folder, so that your article editors will be able to promote articles by publishing Xrisps on your site by themselves.
 </p><p>
-<a href="https://xrispi.com/publishers/how_to_publish/" target="_blank">How to publish a new Xrisp?</a>
+<a href="https://xrispi.com/help/how_to_publish/" target="_blank">How to publish a new Xrisp?</a>
 </p>
 
 <!--
@@ -107,7 +82,7 @@ Control how Xrispi will behave on your site.<br />
 function xrispi_onsite_setting_guid_callback_function() {
 	$setting = esc_attr( get_option( 'xrispi_onsite_publisher_guid' ) );
 	?>
-	<input type="text" name="xrispi_onsite_publisher_guid" id="xrispi_onsite_publisher_guid" size="46" value="<?php echo $setting?>" />&nbsp;<a id="editorsLink" style="display:none;" target="_blank">Add Editors</a>
+	<input type="text" name="xrispi_onsite_publisher_guid" id="xrispi_onsite_publisher_guid" size="46" value="<?php echo $setting?>" />&nbsp;<a id="editorsLink" style="display:none;" target="_blank">Settings</a>
 <script>
 (function() {
 	var input = document.getElementById('xrispi_onsite_publisher_guid');
@@ -129,11 +104,6 @@ function xrispi_onsite_setting_guid_callback_function() {
 </script>
 	<?php
 	echo "";
-}
-
-function xrispi_onsite_setting_locale_callback_function() {
-	$setting = esc_attr( get_option( 'xrispi_onsite_publisher_locale' ) );
-	echo "<input type='text' name='xrispi_onsite_publisher_locale' size='10' value='$setting' /> (Leave blank for auto detection)";
 }
 
 function xrispi_onsite_settings() {

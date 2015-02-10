@@ -4,7 +4,7 @@ Donate link: https://xrispi.com/
 Tags: widget, sidebar, post, sharing, concise, social, notifications, marketing, content, xrispi, Facebook, emails
 Requires at least: 3.0.1
 Tested up to: 4.1
-Stable tag: 1.5
+Stable tag: 1.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -79,6 +79,10 @@ Xrispi Team - sharing what matters!
 3. *New Xrisp* - a summary based on the highlighted text portions, ready to be posted on Facebook and shared via email 
 
 == Changelog ==
+
+= 1.6 =
+* Moving language setting to xrispi backend
+* Serving options from xrispi CDN
 
 = 1.5 =
 * Adding support for setting Xrispi language
