@@ -3,7 +3,7 @@
  * Plugin Name: Xrispi On-Site
  * Plugin URI: https://xrispi.com/
  * Description: Xrispi is a concise content sharing platform, made to promote online articles, boost site traffic and increase reader engagement for online publishers
- * Version: 1.6
+ * Version: 1.7
  * Author: Xrispi Labs Ltd.
  * Author URI: https://xrispi.com
  * License: GPL2
@@ -70,12 +70,6 @@ Note: published Xrisps are saved under unique <a href="https://xrispi.com/publis
 <a href="https://xrispi.com/help/how_to_publish/" target="_blank">How to publish a new Xrisp?</a>
 </p>
 
-<!--
-<p>
-Control how Xrispi will behave on your site.<br />
-<a href="https://xrispi.com/publisher/" target="_blank">Publishing Folders</a> | <a href="https://xrispi.com/newpublisher/<?php echo urlencode(parse_url(get_site_url())['host']) ?>" target="_blank">Create Publishing Folder</a>
-</p>
--->
 <?php
 }
 
