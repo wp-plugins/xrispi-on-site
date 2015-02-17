@@ -72,11 +72,13 @@ Xrispi Team - sharing what matters!
 
 == Screenshots ==
 
-1. *Bite It* - highlighting interesting text 
+1. *Bite It* - highlight interesting text within the article you want to promote
 
-2. *Xrisp It* - the sharing action button    
+2. *Xrisp It* - share the interesting text with a teaser title​​ and publish the mark​ed text​ on your article page
 
-3. *New Xrisp* - a summary based on the highlighted text portions, ready to be posted on Facebook and shared via email 
+3. *Push notification* - for better ​grabbing users​'​ attention, your site visitors receive a notification popup with the teaser and a direct link to the text you ​​shared
+
+4. *Sharable highlighted text* - any page visitor can now share this ​​text, add his own ​teaser ​or simply​ create totally new Xrisp from the text parts he likes
 
 == Changelog ==
 
