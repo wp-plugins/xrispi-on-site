@@ -4,11 +4,11 @@ Donate link: https://xrispi.com/
 Tags: widget, sidebar, post, sharing, concise, social, notifications, marketing, content, xrispi, Facebook, emails
 Requires at least: 3.0.1
 Tested up to: 4.1
-Stable tag: 1.7
+Stable tag: 1.8
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Xrispi is a concise content sharing platform, made to promote online articles, boost site traffic and increase reader engagement for online publishers
+Xrispi [Deprecated] is a concise content sharing platform, made to promote online articles, boost site traffic and increase reader engagement for online publishers
 
 == Description ==
 [Xrispi](https://www.xrispi.com) is a cool widget that enables online publishers, bloggers and readers alike to highlight important parts of content and share them instantly via social networks, emails and unique push notifications. After all who has the time to read long articles? Any visitor can choose to highlight text within an article, as well as adding his own takeaway, sharing it and ultimately grabbing the attention of wider audiences, otherwise unreached.
